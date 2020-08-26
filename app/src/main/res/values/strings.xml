@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">G-Triple-T</string>
+    <string name="player1">Player 1</string>
+    <string name="player2">Player 2</string>
+    <string name="start">Start</string>
+    <string name="exit">Exit</string>
+    <string name="x">X</string>
+    <string name="o">O</string>
+    <string name="Null"></string>
+</resources>
