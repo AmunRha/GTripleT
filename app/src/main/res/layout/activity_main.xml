@@ -8,8 +8,8 @@
     tools:context=".MainActivity">
 
     <LinearLayout
-        android:layout_width="316dp"
-        android:layout_height="394dp"
+        android:layout_width="348dp"
+        android:layout_height="136dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -24,7 +24,16 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:onClick="onClickStart"
-            android:text="@string/start" />
+            android:text="@string/start"
+            android:textSize="32sp"
+            android:textColor="@color/white"
+            android:background="@drawable/button_round"
+            android:textStyle="normal" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_weight="0.2" />
 
         <Button
             android:id="@+id/exit"
@@ -32,6 +41,10 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:onClick="onClickExit"
-            android:text="@string/exit" />
+            android:text="@string/exit"
+            android:textSize="32sp"
+            android:textColor="@color/white"
+            android:textStyle="normal"
+            android:background="@drawable/button_round" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

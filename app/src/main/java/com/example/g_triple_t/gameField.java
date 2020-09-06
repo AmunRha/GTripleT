@@ -111,7 +111,10 @@ public class gameField extends AppCompatActivity {
             }
 
             if(win == true){
-                textView3.setText("WINNER");
+                if(String.valueOf(textView1.getText()).equals("Player 1"))
+                    textView3.setText("WINNER PLAYER 1");
+                else
+                    textView3.setText("WINNER PLAYER 2");
                 if (count == 1) {
                     xoButton.setText("X");
                 }
@@ -134,6 +137,11 @@ public class gameField extends AppCompatActivity {
                 textView2.setText(R.string.x);
             }
             count *= (-1);
+        }
+        if(win != true && totalChances >= 9){
+            textView1.setText("GAME");
+            textView2.setText("OVER");
+            textView3.setText("DRAW");
         }
         return 0;
     }

@@ -13,8 +13,9 @@
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-black"
         android:text="@string/Null"
+        android:background="@color/colorBackgroundMain"
         android:textColor="@android:color/background_dark"
-        android:textSize="50sp"
+        android:textSize="40sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout"
         app:layout_constraintEnd_toEndOf="parent"
@@ -63,7 +64,15 @@
                 android:layout_weight="1"
                 android:onClick="onClickButton"
                 android:tag="00"
-                android:text="@string/Null" />
+                android:text="@string/Null"
+                android:background="@color/colorBackgroundMain"/>
+
+            <View
+                android:id="@+id/divider4"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_weight="0.2"
+                android:background="@color/cardview_dark_background" />
 
             <Button
                 android:id="@+id/_10"
@@ -72,7 +81,15 @@
                 android:layout_weight="1"
                 android:onClick="onClickButton"
                 android:tag="10"
-                android:text="@string/Null" />
+                android:text="@string/Null"
+                android:background="@color/colorBackgroundMain" />
+
+            <View
+                android:id="@+id/divider5"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_weight="0.2"
+                android:background="@color/cardview_dark_background" />
 
             <Button
                 android:id="@+id/_20"
@@ -81,8 +98,17 @@
                 android:layout_weight="1"
                 android:onClick="onClickButton"
                 android:tag="20"
-                android:text="@string/Null" />
+                android:text="@string/Null"
+                android:background="@color/colorBackgroundMain" />
+
         </LinearLayout>
+
+        <View
+            android:id="@+id/divider2"
+            android:layout_width="55dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:background="@color/cardview_dark_background"/>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -97,7 +123,15 @@
                 android:layout_weight="1"
                 android:onClick="onClickButton"
                 android:tag="01"
-                android:text="@string/Null" />
+                android:text="@string/Null"
+                android:background="@color/colorBackgroundMain" />
+
+            <View
+                android:id="@+id/divider7"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_weight="0.2"
+                android:background="@color/cardview_dark_background" />
 
             <Button
                 android:id="@+id/_11"
@@ -106,7 +140,15 @@
                 android:layout_weight="1"
                 android:onClick="onClickButton"
                 android:tag="11"
-                android:text="@string/Null" />
+                android:text="@string/Null"
+                android:background="@color/colorBackgroundMain" />
+
+            <View
+                android:id="@+id/divider8"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_weight="0.2"
+                android:background="@color/cardview_dark_background" />
 
             <Button
                 android:id="@+id/_21"
@@ -115,8 +157,17 @@
                 android:layout_weight="1"
                 android:onClick="onClickButton"
                 android:tag="21"
-                android:text="@string/Null" />
+                android:text="@string/Null"
+                android:background="@color/colorBackgroundMain" />
+
         </LinearLayout>
+
+        <View
+            android:id="@+id/divider3"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:background="@color/cardview_dark_background"/>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -131,7 +182,15 @@
                 android:layout_weight="1"
                 android:onClick="onClickButton"
                 android:tag="02"
-                android:text="@string/Null" />
+                android:text="@string/Null"
+                android:background="@color/colorBackgroundMain" />
+
+            <View
+                android:id="@+id/divider10"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_weight="0.2"
+                android:background="@color/cardview_dark_background" />
 
             <Button
                 android:id="@+id/_12"
@@ -140,7 +199,15 @@
                 android:layout_weight="1"
                 android:onClick="onClickButton"
                 android:tag="12"
-                android:text="@string/Null" />
+                android:text="@string/Null"
+                android:background="@color/colorBackgroundMain" />
+
+            <View
+                android:id="@+id/divider11"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_weight="0.2"
+                android:background="@color/cardview_dark_background" />
 
             <Button
                 android:id="@+id/_22"
@@ -149,7 +216,9 @@
                 android:layout_weight="1"
                 android:onClick="onClickButton"
                 android:tag="22"
-                android:text="@string/Null" />
+                android:text="@string/Null"
+                android:background="@color/colorBackgroundMain" />
+
         </LinearLayout>
     </LinearLayout>
 
