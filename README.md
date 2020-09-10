@@ -1,11 +1,11 @@
 # GTripleT
 This is an Android game of Tic-Tac-Toe [Pet Project]
 
-Description of the Android App
+Description of the Android App :
 
 <https://github.com/AmunRha/GTripleT/blob/master/AndroidAppDesc.pdf/>
 
-Working screenshots of the App
+Working screenshots of the App :
 
 <img src="https://github.com/AmunRha/GTripleT/blob/master/screenshots/Screenshot_20200906-195950.png" width="40%">  <img src="https://github.com/AmunRha/GTripleT/blob/master/screenshots/Screenshot_20200906-195955.png" width="40%">
 
